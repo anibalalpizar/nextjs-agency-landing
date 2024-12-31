@@ -1,7 +1,30 @@
 {
   "name": "nextjs-agency-landing",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "A modern, responsive landing page template built with Next.js 15, Tailwind CSS, and TypeScript. Perfect for developers looking to quickly set up a professional web presence.",
+  "author": {
+    "name": "Anibal Alpizar",
+    "url": "https://github.com/anibalalpizar"
+  },
+  "homepage": "https://agency-landing-lime.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anibalalpizar/nextjs-agency-landing"
+  },
+  "bugs": {
+    "url": "https://github.com/anibalalpizar/nextjs-agency-landing/issues"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "landing-page",
+    "template",
+    "starter",
+    "open-source"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -29,5 +52,8 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.17.0"
   }
 }
